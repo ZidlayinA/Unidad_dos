@@ -7,7 +7,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans&display=swap" rel="stylesheet"> 
 	<link rel="stylesheet" href="./css/estilos.css">
-	<title>Texto Animado - HTML, CSS y JS</title>
+	<title>Pagina de inicio</title>
 </head>
 <body>
 	<main>

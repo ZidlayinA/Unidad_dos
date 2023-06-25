@@ -92,17 +92,11 @@ require_once 'cnn.php';
               $sql->bindParam(':usuario',$usuario); 
               $sql->bindParam(':contrasena',$contrasena);  
                
-              
-              
               //Ejecutar la variable $sql
               $sql->execute();
               unset($sql);
               unset($cnnPDO);
-
                header('Location:login.php'); 
-        
-         
-        
           }
     }
 
