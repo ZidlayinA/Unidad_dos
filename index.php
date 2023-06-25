@@ -11,7 +11,7 @@
 </head>
 <body>
 	<main>
-		<a href="portafolio/index.html" class="logotipo" id="logotipo">
+		<a href="login.php" class="logotipo" id="logotipo">
 			<div class="texto-animado" id="logo">Sitio Web dinamico</div>
 			<p class="subtitulo" >Inicia sesion</p>
 		</a>

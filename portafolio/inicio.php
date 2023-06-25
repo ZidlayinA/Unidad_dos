@@ -1,3 +1,8 @@
+<?php
+session_start();
+require_once 'cnn.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +13,24 @@
 	<script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
 	<link rel="stylesheet" href="estilos.css">
 	<link rel="stylesheet" href="./css/style.css">
+
+    <style>
+        /* Estilos para el botón */
+        .logout-btn {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            padding: 10px 20px;
+            background-color: #000000;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
 	<title>Portafolio Dinamico - Unidad II</title>
 </head>
 <body>
@@ -18,6 +41,11 @@
 				<h1>Unidad II</h1>
 				<p>Sitios Web Dinamicos</p>
 			</div>
+
+            <div class="logo">
+           	<a href="cerrar.php" class="logout-btn">Cerrar sesión</a>
+			</div>
+			
 			
 			<form action="">
 				<input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar">
